@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https:fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index1.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index1.html">HOME</a></li>
+            <li><a href="about1 - Copy.html">ABOUT</a></li>
+            <li><a href="course1.html">COURSE</a></li>
+            <li><a href="blog1 copy.html">BLOG</a></li>
+            <li><a href="contact1.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>OUR COURSES</h1>
+    </section>
+    <!-- COURSE CONTENT -->
+    <!-- course -->
+    <section class="course">
+      <h1>COURSES WE OFFER</h1>
+      <p>We offer a huge number of courses as we shall show you some.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Intermediate Microeconomics</p>
+          <p>Data Structures and Algorithms</p>
+          <p>Organic Chemistry II</p>
+          <p>Linear Algebra II</p>
+          <p>Modern European History</p>
+          <p>Software Engineering</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>BSc Computer Science</p>
+          <p>BA Economics</p>
+          <p>BEng Mechanical Engineering</p>
+          <p>BSc Nursing</p>
+          <p>BBA Business Administration</p>
+          <p>LLB Law</p>
+        </div>
+        <div class="course-col">
+          <h3>Post-Graduation</h3>
+          <p>MSc Data Science</p>
+          <p>MBA (Master of Business Administration)</p>
+          <p>MA International Relations</p>
+          <p>MSc Biotechnology</p>
+          <p>PhD Computer Science</p>
+          <p>PhD Economics</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- facilities -->
+
+    <section class="facilities">
+      <h1>OUR FACILITIES</h1>
+      <p>
+        Our university provides state-of-the-art facilities designed to support
+        academic excellence, innovation, and student well-being. The campus
+        features modern classrooms equipped with advanced technology, fully
+        furnished science and computer laboratories, and a comprehensive library
+        offering both physical and digital resources. Students also benefit from
+        collaborative study spaces, high-speed internet access, research
+        centers, and dedicated innovation hubs. In addition, our campus includes
+        comfortable student housing, dining services, healthcare facilities, and
+        recreational areas such as sports complexes and fitness centers—creating
+        a safe, inclusive, and inspiring environment for learning and personal
+        growth.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="eduford_img/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            This is our fully stocked library suitable with all necessary books
+            and forms of literature.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="eduford_img/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            This is spacious basketball ground to enable effective practice.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="eduford_img/cafeteria.png" />
+          <h3>Tasty And Healthy Food</h3>
+          <p>
+            This is our well stocked caffeteria to enable proper feeding and
+            keep healthy minds and bodies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Founded with a vision to provide quality education and foster
+        innovation, our university is committed to shaping the leaders of
+        tomorrow. We offer a diverse range of academic programs, supported by
+        experienced faculty and cutting-edge facilities, to ensure students
+        receive a holistic learning experience.<br />
+        Beyond academics, we emphasize personal growth, research, and community
+        engagement, empowering students to excel in their chosen fields while
+        contributing positively to society. Our inclusive and vibrant campus
+        culture encourages curiosity, creativity, and collaboration, making us
+        more than just a place to study — we are a community where potential
+        becomes achievement.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twittter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-quora"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> Keepin' It Boujee</p>
+    </section>
+
+    <!-- Javascript to move menu on a small screen -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

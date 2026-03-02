@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https:fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index1.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index1.html">HOME</a></li>
+            <li><a href="about1 - Copy.html">ABOUT</a></li>
+            <li><a href="course1.html">COURSE</a></li>
+            <li><a href="blog1 copy.html">BLOG</a></li>
+            <li><a href="contact1.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>ABOUT US</h1>
+    </section>
+    <!-- About US CONTENT -->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the No.1 University In The World</h1>
+          <p>
+            Recognized as one of the leading universities in the world, our
+            institution combines academic excellence with innovation and a
+            vibrant campus life. Our commitment to research, quality teaching,
+            and global collaboration ensures that students receive an education
+            that is both world-class and transformative, preparing them to
+            become leaders and change-makers in their fields.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="eduford_img/about.jpg">
+        </div>
+        <div class="about-col"></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Founded with a vision to provide quality education and foster
+        innovation, our university is committed to shaping the leaders of
+        tomorrow. We offer a diverse range of academic programs, supported by
+        experienced faculty and cutting-edge facilities, to ensure students
+        receive a holistic learning experience.<br />
+        Beyond academics, we emphasize personal growth, research, and community
+        engagement, empowering students to excel in their chosen fields while
+        contributing positively to society. Our inclusive and vibrant campus
+        culture encourages curiosity, creativity, and collaboration, making us
+        more than just a place to study — we are a community where potential
+        becomes achievement.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twittter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-quora"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> Keepin' It Boujee</p>
+    </section>
+
+    <!-- Javascript to move menu on a small screen -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

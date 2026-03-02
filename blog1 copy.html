@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https:fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index1.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index1.html">HOME</a></li>
+            <li><a href="about1 - Copy.html">ABOUT</a></li>
+            <li><a href="course1.html">COURSE</a></li>
+            <li><a href="blog1 copy.html">BLOG</a></li>
+            <li><a href="contact1.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate And Online Programs</h1>
+    </section>
+
+    <!-- blog page -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="eduford_img/certificate.jpg" />
+          <h2>Certificate Programs</h2>
+          <p>
+            Our Certificate Programs offer focused, career-driven education
+            designed to help you gain practical skills in a short, flexible
+            format. Ideal for working professionals, recent graduates, and
+            career changers, these programs combine expert instruction with
+            industry-relevant coursework to prepare you for today’s competitive
+            job market.<br />
+            With convenient scheduling options and accelerated completion
+            timelines, you can enhance your expertise, strengthen your résumé,
+            and earn a respected university credential—without committing to a
+            full degree program.
+          </p>
+          <p>
+            Our Certificate Programs offer focused, career-driven education
+            designed to help you gain practical skills in a short, flexible
+            format. Ideal for working professionals, recent graduates, and
+            career changers, these programs combine expert instruction with
+            industry-relevant coursework to prepare you for today’s competitive
+            job market. With convenient scheduling options and accelerated
+            completion timelines, you can enhance your expertise, strengthen
+            your résumé, and earn a respected university credential—without
+            committing to a full degree program.<br />
+            Each program is thoughtfully designed to balance academic rigor with
+            real-world application. Courses emphasize hands-on learning, case
+            studies, and practical projects that allow you to immediately apply
+            new knowledge in professional settings. Taught by experienced
+            faculty and industry practitioners, our curriculum reflects current
+            trends, technologies, and best practices across a range of
+            disciplines. <br />Whether you are seeking advancement in your
+            current field or exploring a new professional direction, our
+            certificate programs provide a clear, achievable pathway toward your
+            goals. Join a dynamic learning community committed to innovation,
+            excellence, and lifelong growth, and take the next step toward
+            expanding your expertise and career opportunities.
+          </p>
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your content"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                Post Comment
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Catergories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>12</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>33</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>09</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>07</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Founded with a vision to provide quality education and foster
+        innovation, our university is committed to shaping the leaders of
+        tomorrow. We offer a diverse range of academic programs, supported by
+        experienced faculty and cutting-edge facilities, to ensure students
+        receive a holistic learning experience.<br />
+        Beyond academics, we emphasize personal growth, research, and community
+        engagement, empowering students to excel in their chosen fields while
+        contributing positively to society. Our inclusive and vibrant campus
+        culture encourages curiosity, creativity, and collaboration, making us
+        more than just a place to study — we are a community where potential
+        becomes achievement.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twittter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-quora"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> Keepin' It Boujee</p>
+    </section>
+
+    <!-- Javascript to move menu on a small screen -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
